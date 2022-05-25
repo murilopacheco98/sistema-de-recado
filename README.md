@@ -10,7 +10,7 @@ Javascript
 ## Como usar
   O objetivo do sistema é gerenciar lembretes controlados pelo próprio usuário de forma dinâmica.
 
-![Print inicial](https://github.com/murilopacheco98/magens-da-projeto/login.jpg)
+![Print inicial](https://github.com/murilopacheco98/sistema-de-recado/imagens-do-projeto/login.jpg)
 
   Na página inicial, o usuário deve fazer seu login para acessar seus recados. Temos aqui uma validação para o campo de login em formato de e-mail e para o preenchimento da senha. O sistema busca o cadastro e loga clicando em entrar.
   Caso a pessoa ainda não possua cadastro, pode clicar no botão correspondente para criá-lo.
