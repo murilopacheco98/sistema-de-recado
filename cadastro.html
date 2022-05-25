@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style2.css">
+    <title>Recados - Cadastro</title>
+</head>
+
+<body>
+    <main class="conteudo">
+        <section class="primeira-coluna">
+            <div class="row-esquerda">
+                <div class="logo">
+                    <h1>Avaliação</h1>
+                    <h1>Final do Módulo</h1>
+                    <p>Introdução a programação web - lógica de programação, <br>
+                        javascript/typescript e manipulação de DOM.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="segunda-coluna">
+            <div class="row-direita">
+                <h2 class="titulo">Criar Conta</h2>
+                <form class="formulario" id="formulario-cadastro">
+                    <label for="email" id="label-input-email"></label>
+                    <input id="input-email" name="email" type="email" placeholder="E-mail" class="espaço">
+                    
+                    <label for="senha" id="label-input-senha"></label>
+                    <input id="input-senha" name="senha" type="password" placeholder="Senha" class="espaço">
+                    
+                    <label for="confirma-senha" id="label-input-confirma-senha"></label>
+                    <input id="input-confirma-senha" name="confirma-senha" type="password" placeholder="Confirmar senha" class="espaço"> <br>
+                    
+                    <button id="btn-cadastrar" type="button" class="btn-criar-conta">Criar conta</button>
+                </form>
+            </div>
+        </section>
+        <script src="./js/cadastro.js"></script>
+    </main>
+</body>
+
+</html>

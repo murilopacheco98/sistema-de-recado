@@ -1,0 +1,130 @@
+/* DADOS DA TELA INTEIRA */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: rgb(236, 253, 236);
+  }
+  
+  .conteudo {
+    height: 90vh;
+    width: 90vw;
+    position: relative;
+    left:5%;
+    margin-top: 20px;
+  }
+/* Parte superior - Tìtulo e input */  
+.titulo {
+    font-size: 50px;
+    color: green;
+    margin-top: 35px;
+}
+
+#input-descricao {
+    width: 33%;
+    margin-right: 1%;
+    margin-left: 2%;
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+
+#input-detalhamento {
+    width: 50%;
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    margin-right: 1%;
+}
+nav {
+    height: 14vh;
+    width: 90vw;
+    position: relative;
+    left:5%;
+  }
+
+button.btn-sair {
+    opacity: 1;
+    background-color: red;
+    color: white;
+    /*margin-top: 10px;*/
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+    margin-top: 10px;
+}
+
+li.sair {
+    float: right;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 30px;
+}
+
+th {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 3px solid rgb(170, 162, 162);
+}
+td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #DDD;
+}
+
+tr:hover {
+    background-color: #d6eeee;
+}
+
+button {
+    color: white;
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+    border:none;
+    border-radius: 15px;
+}
+
+button.btn-editar {
+    background-color: blue;
+    opacity: 0.7;
+}
+
+button.btn-editar:hover {
+    opacity: 1;
+    box-shadow: 0px 0px 2px 2px blue;
+}
+button.btn-apagar {
+    background-color: red;
+    opacity: 0.7;
+}
+
+button.btn-apagar:hover {
+    opacity: 1;
+    box-shadow: 0px 0px 2px 2px red;
+}
+
+input#btn-salvar {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    opacity: 0.7;
+    border-radius: 10px;
+}
+
+input#btn-salvar:hover { 
+    opacity: 1;
+}
+
