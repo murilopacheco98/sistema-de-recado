@@ -15,11 +15,11 @@ Javascript
   Na página inicial, o usuário deve fazer seu login para acessar seus recados. Temos aqui uma validação para o campo de login em formato de e-mail e para o preenchimento da senha. O sistema busca o cadastro e loga clicando em entrar.
   Caso a pessoa ainda não possua cadastro, pode clicar no botão correspondente para criá-lo.
 
-![Print cadastro](https://github.com/murilopacheco98/sistema_de_recados/blob/master/cadastro.jpg)
+![Print cadastro](https://github.com/murilopacheco98/sistema-de-recado/blob/master/imagens-do-projeto/cadastro.jpg)
 
   Na página de cadastro é solicitado o e-mail, a criação de uma senha e sua confirmação. Aqui temos validação do campo de e-mail e conferência da digitação da senha. Feito o cadastro, o usuário é redirecionado para que realize o login.
 
-![Print painel](https://github.com/murilopacheco98/sistema_de_recados/blob/master/painelderecados.jpg)
+![Print painel](https://github.com/murilopacheco98/sistema-de-recado/blob/master/imagens-do-projeto/home.jpg)
 
   Tendo o acesso validado, o usuário é direcionado a sua página de recados, podendo criá-los pontuando nome e descrição, ao que o sistema confere um identificador por ordem de criação.
   É possível gerenciar os recados, utilizando as funções editar ou apagar. Cada usuário tem acesso apenas aos seus recados.
